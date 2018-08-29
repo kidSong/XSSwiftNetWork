@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let model = XSNetworkModel.init(path: "https://xsongtest.com")
+        XSNetworkService.shareInstance.sendRequest(modelType: XSUserModel.self, netModel: model, success: { (user) in
+            print(user)
+        },  faild: { (error, tips) in
+            print(tips)
+        }, progressBlock: nil)
     }
 
     override func didReceiveMemoryWarning() {

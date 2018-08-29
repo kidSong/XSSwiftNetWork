@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8A6FEDCD876244BD971C287C /* Pods_XSNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AE01D3D9D4A22069628B28 /* Pods_XSNetWork.framework */; };
+		ED374A4D21369DCB0051C077 /* XSUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED374A4C21369DCB0051C077 /* XSUserModel.swift */; };
 		EDCCBEF2212C0EF70005318B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBEF1212C0EF70005318B /* AppDelegate.swift */; };
 		EDCCBEF4212C0EF70005318B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBEF3212C0EF70005318B /* ViewController.swift */; };
 		EDCCBEF7212C0EF70005318B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCBEF5212C0EF70005318B /* Main.storyboard */; };
 		EDCCBEF9212C0EF80005318B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCCBEF8212C0EF80005318B /* Assets.xcassets */; };
 		EDCCBEFC212C0EF80005318B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCCBEFA212C0EF80005318B /* LaunchScreen.storyboard */; };
 		EDCCBF04212C10480005318B /* XSNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBF03212C10480005318B /* XSNetworkModel.swift */; };
+		EDCCBF06212CFF660005318B /* XSNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBF05212CFF660005318B /* XSNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		333FE9340B9268E2B98577B0 /* Pods-XSNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSNetWork/Pods-XSNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		36AE01D3D9D4A22069628B28 /* Pods_XSNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AD403FAB186A44382AB84 /* Pods-XSNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-XSNetWork/Pods-XSNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		ED374A4C21369DCB0051C077 /* XSUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSUserModel.swift; sourceTree = "<group>"; };
 		EDCCBEEE212C0EF70005318B /* XSNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCCBEF1212C0EF70005318B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDCCBEF3212C0EF70005318B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		EDCCBEFB212C0EF80005318B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDCCBEFD212C0EF80005318B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCCBF03212C10480005318B /* XSNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSNetworkModel.swift; sourceTree = "<group>"; };
+		EDCCBF05212CFF660005318B /* XSNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				EDCCBEFA212C0EF80005318B /* LaunchScreen.storyboard */,
 				EDCCBEFD212C0EF80005318B /* Info.plist */,
 				EDCCBF03212C10480005318B /* XSNetworkModel.swift */,
+				EDCCBF05212CFF660005318B /* XSNetworkService.swift */,
+				ED374A4C21369DCB0051C077 /* XSUserModel.swift */,
 			);
 			path = XSNetWork;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED374A4D21369DCB0051C077 /* XSUserModel.swift in Sources */,
 				EDCCBF04212C10480005318B /* XSNetworkModel.swift in Sources */,
 				EDCCBEF4212C0EF70005318B /* ViewController.swift in Sources */,
 				EDCCBEF2212C0EF70005318B /* AppDelegate.swift in Sources */,
+				EDCCBF06212CFF660005318B /* XSNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
